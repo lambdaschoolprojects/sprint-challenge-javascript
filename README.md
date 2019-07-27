@@ -29,14 +29,22 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+> `.foreach` does not return anything, `.map` returns a new array based on the results of the callback
 
 2. What is the difference between a function and a method?
+> A function is a procedure that runs when invoked. A method is a function that is part of an object. 
 
 3. What is closure?
+> A closure is a function and it's variables that stay in scope as long as they are in memory.
 
 4. Describe the four rules of the 'this' keyword.
+> 1. __Window__ scoping is the default scoping of the `this` keyword. It means that the value of `this` is the window object itself.
+> 2. __Implicit__ scoping means that the value of `this` is the first thing to the left of the dot. For instance, for `Parent.Child.doThing()`  the value of `this` is the `Child` object.
+> 3. __Explicit__ scoping means that the `this` keywork is explicitly bound to an object using `call` or `apply`
+> 4. __New__ binding means that `this` is bound to an object when the `new` keyword is used.
 
 5. Why do we need super() in an extended class?
+> `super()` calls the constructor of the parent and passes the values for inheritted attributes to it.
 
 ## Project Set up
 
